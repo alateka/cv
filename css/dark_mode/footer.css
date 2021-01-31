@@ -1,0 +1,7 @@
+#dark_footer {
+    box-shadow: #212121 3px 3px 9px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #424242;
+    padding: 1.55%;
+}

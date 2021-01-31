@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/light_mode/header.css">
+    <link rel="stylesheet" href="css/light_mode/footer.css">
+    <link rel="stylesheet" href="css/light_mode/body.css">
+    <link rel="stylesheet" href="css/dark_mode/body.css">
+    <link rel="stylesheet" href="css/dark_mode/header.css">
+    <link rel="stylesheet" href="css/dark_mode/footer.css">
+    <script src="js/view_modes.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    </head>
+<body class="light_mode">
+    <header id="nav_header-light">
+        <nav>
+            <a href="#"><img src="img/avatar.jpg" alt="inicio"></a>
+            <div>
+                <a class="light-nav_link" href="#conocimiento">Conocimientos</a>
+                <a class="light-nav_link" href="#experiencias">Experiencias</a>
+                <a class="light-nav_link" href="#sobre_mi">Sobre mí</a>
+            </div>
+            <div>
+                <a style="margin-right: 33px;" onclick="switchModes(this)" id="dark-mode" href="#">Modo Oscuro</a>
+            </div>
+        </nav>
+    </header>
+    <div id="social_bar-light">
+        <a class="light-nav_link" target="blank" href="https://gitlab.com/ALATEKA"><img src="img/gitlab.svg" alt="perfil gitlab"></a>
+        <a class="light-nav_link" target="blank" href="https://twitter.com/1ALATEKA"><img src="img/twitter.svg" alt="perfil twitter"></a>
+        <a class="light-nav_link" onclick="alert('Alias Telegram ==> @ALATEKA')" href="#"><img src="img/telegram.svg" alt="alias telegram"></a>
+        <a class="light-nav_link" target="blank" href="https://www.linkedin.com/in/alberto-p%C3%A9rez-fructuoso-0981701a5/"><img src="img/linkedin.svg" alt="perfil linkedin"></a>
+    </div>
+    <div id="presentation">
+        <img id="header_img" src="img/header_img.jpg" alt="">
+        <div id="header_content-light" class="content">
+            <h1 style="margin-bottom: 1%">Bienvenido a mi CV (Versión Web)</h1>
+            <p><strong>Aquí encontrarás mas información sobre mí, mucha mas de la que verás en mi documento CV.</strong></p>
+        </div>
+    </div>
+    <div id="conocimiento" class="container-light">
+        <div class="content">
+            <img style="width: 555px; height: 312px;" src="img/content1.svg" alt="">
+        </div>
+        <div class="content">
+            <h1>Conocimiento adquirido</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit ante sed ullamcorper ultrices. Ut semper ligula in justo ls augue</p>
+            <p>posuere. Etiam lobortis sapien ut leo lacinia, facilisis feugiat nibh fringilla. Sed rhoncus tellus eget porttitor elementum. Praesepibus</p>
+            <p>et interdum eget, porttitor ultrices quam. Suspendisse et imperdiet ex, ac lobortis purus. Curabitur egestas, ligula sed laoreet consectdunt dui, </p>
+            <p>quis laoreet leo dolor vel massa. Curabitur nec scelerisque mauris. Morbi eget posuere nulla, et suscipit urna. Duis dui neque, </p>
+            <p>tellus. Nam quis facilisis nisl. Ut vestibulum porttitor nisl. Vivamus eu pellentesque turpis. Morbi sed lobortis ex.</p>
+        </div>
+    </div>
+    <div id="experiencias" class="container-light">
+        <div class="content">
+            <h1>Experiencia</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit ante sed ullamcorper ultrices. Ut semper ligula in justo ls augue</p>
+            <p>posuere. Etiam lobortis sapien ut leo lacinia, facilisis feugiat nibh fringilla. Sed rhoncus tellus eget porttitor elementum. Praesepibus</p>
+            <p>et interdum eget, porttitor ultrices quam. Suspendisse et imperdiet ex, ac lobortis purus. Curabitur egestas, ligula sed laoreet consectdunt dui, </p>
+            <p>quis laoreet leo dolor vel massa. Curabitur nec scelerisque mauris. Morbi eget posuere nulla, et suscipit urna. Duis dui neque, </p>
+            <p>tellus. Nam quis facilisis nisl. Ut vestibulum porttitor nisl. Vivamus eu pellentesque turpis. Morbi sed lobortis ex.</p>
+        </div>
+        <div class="content">
+            <img class="img_content-light" src="img/content2.png" alt="">
+        </div>
+    </div>
+    <div id="sobre_mi" class="container-light">
+        <div class="content">
+            <img class="img_content-light" src="img/content3.jpg" alt="">
+        </div>
+        <div class="content">
+            <h1>Sobre mí</h1>
+            <p>Llevo 5 años dedicandome a la informática en general (Montaje y reparación de equipos, Instalación y</p>
+            <p>configuraciónde Sistemas Operativos, Despliegue de servidores, Manejo de redes locales, Seguridad, informática</p>
+            <p>etc). Actualmente estoy estudiando para obtener un título superior de Desarrollo de Aplicaciones Web.</p>
+        </div>
+    </div>
+    <footer id="light_footer">
+        <img src="img/contact.png" alt="contacto">
+        <p><strong>Alberto Pérez Fructuoso</strong></p>
+        <p>Movil - 629983744</p>
+    </footer>
+</body>
+</html>

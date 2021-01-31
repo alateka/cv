@@ -1,0 +1,43 @@
+#header_content-light {
+    border-radius: 55px;
+    padding: 3%;
+    top: 9%;
+    position: absolute;
+    z-index: -1;
+    color: #000000;
+    background: #e2e2e2c9;
+}
+#nav_header-light {
+    position: fixed;
+    width: 100%;
+    color: #ffffff;
+    background-color: #198754;
+    border: 7px solid #198754;
+    box-shadow: #444444 3px 3px 15px;
+}
+.light-nav_link {
+    margin: 5px;
+    color: #ffffff;
+    padding: 3px;
+    border: #198754 5px solid;
+    border-radius: 9px;
+}
+.light-nav_link:hover {
+    color: #323031;
+    transition-duration: 0.5s;
+    background-color: #e4e4e4;
+    border: #e4e4e4 5px solid;
+}
+#light-mode {
+    margin: 5px;
+    color: #ffffff;
+    padding: 3px;
+    border: #198754 5px solid;
+    border-radius: 9px;
+}
+#light-mode:hover {
+    color: #000000;
+    transition-duration: 0.5s;
+    background-color: #e4e4e4;
+    border: #e4e4e4 5px solid;
+}

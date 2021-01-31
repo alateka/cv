@@ -1,0 +1,31 @@
+.light_mode {
+    font-family: 'Ubuntu';
+    background-color: #e4e4e4;
+    color: #000000;
+}
+.img_content-light {
+    border-radius: 55px;
+}
+#social_bar-light {
+    margin-top: 199px;
+    border-right: 5px solid #198754;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #198754;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    box-shadow: #444444 3px 3px 9px;
+}
+#social_bar-light img {
+    width: 33px;
+}
+.container-light {
+    border-radius: 55px;
+    margin: 0px 3% 3% 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: #9c9c9c 3px 3px 9px;
+}
