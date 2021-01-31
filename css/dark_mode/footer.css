@@ -3,5 +3,7 @@
     text-align: center;
     color: #ffffff;
     background-color: #424242;
-    padding: 1.55%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
 }
