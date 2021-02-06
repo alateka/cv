@@ -2,7 +2,7 @@ function switchModes(mode)
 {
  if ( mode.innerText == 'Modo Oscuro' ) {
   document.body.className = 'dark_mode';
-  for ( let i=1; i<9; i++ ) {
+  for ( let i=1; i<11; i++ ) {
    document.getElementsByTagName('a')[i].className = 'dark-nav_link';
   }
   document.getElementById('dark-mode').id = 'light-mode';
@@ -10,7 +10,7 @@ function switchModes(mode)
   for ( let i=0; i<1; i++ ) {
    document.getElementsByClassName("img_content-light")[0].className = "img_content-dark";
   }
-  for ( let i=0; i<3; i++) {
+  for ( let i=0; i<5; i++) {
    document.getElementsByClassName("container-light")[0].className = "container-dark";
   }
   document.getElementById("social_bar-light").id = "social_bar-dark";
@@ -21,7 +21,7 @@ function switchModes(mode)
  } else {
 
   document.body.className = 'light_mode';
-  for ( let i=1; i<9; i++ ) {
+  for ( let i=1; i<11; i++ ) {
    document.getElementsByTagName('a')[i].className = 'light-nav_link';
   }
   document.getElementById('light-mode').id = 'dark-mode';
@@ -29,7 +29,7 @@ function switchModes(mode)
   for ( let i=0; i<1; i++ ) {
    document.getElementsByClassName("img_content-dark")[0].className = "img_content-light";
   }
-  for ( let i=0; i<3; i++) {
+  for ( let i=0; i<5; i++) {
    document.getElementsByClassName("container-dark")[0].className = "container-light";
   }
   document.getElementById("social_bar-dark").id = "social_bar-light";
