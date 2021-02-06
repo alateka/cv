@@ -22,11 +22,12 @@
     width: 33px;
 }
 .container-light {
-    border-radius: 55px;
+    border-radius: 39px;
     margin: 0px 3% 3% 3%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     background-color: #ffffff;
     box-shadow: #9c9c9c 3px 3px 9px;
 }

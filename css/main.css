@@ -9,17 +9,18 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 nav a img {
     border: #34b679 3px solid;
     border-radius: 50px;
-    width: 39px;
+    width: 39%;
 }
 .content {
     margin: 1.99%;
-    text-align: justify;
 }
-.content h1 {
+.content h2 {
+    margin-bottom: 5%;
     text-align: center;
 }
 #presentation {
@@ -40,8 +41,13 @@ table {
     width: 100%;
 }
 
-td, th {
-    border: 2px solid #5f5f5f;
+th {
+    border: 2px solid #646464;
     text-align: center;
+    padding: 8px;
+}
+td {
+    border: 2px solid #646464;
+    text-align: left;
     padding: 8px;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,9 +21,9 @@
         <nav>
             <a style="margin-left: 33px;" href="#"><img src="img/avatar.jpg" alt="inicio"></a>
             <div>
-                <a class="light-nav_link" href="#conocimiento">Conocimientos</a>
-                <a class="light-nav_link" href="#experiencias">Experiencias</a>
                 <a class="light-nav_link" href="#sobre_mi">Sobre mí</a>
+                <a class="light-nav_link" href="#experiencias">Experiencias</a>
+                <a class="light-nav_link" href="#conocimiento">Conocimientos</a>
             </div>
             <div>
                 <a style="margin-right: 33px;" onclick="switchModes(this)" id="dark-mode" href="#">Modo Oscuro</a>
@@ -33,22 +33,46 @@
     <div id="social_bar-light">
         <a class="light-nav_link" target="blank" href="https://gitlab.com/ALATEKA"><img src="img/gitlab.svg" alt="perfil gitlab"></a>
         <a class="light-nav_link" target="blank" href="https://twitter.com/1ALATEKA"><img src="img/twitter.svg" alt="perfil twitter"></a>
-        <a class="light-nav_link" onclick="alert('Alias Telegram ==> @ALATEKA')" href="#"><img src="img/telegram.svg" alt="alias telegram"></a>
+        <a class="light-nav_link" onclick="alert('Alias Telegram ==> @ALATEKA')" href="#"><img src="img/telegram.svg" alt="alias telegram @ALATEKA"></a>
         <a class="light-nav_link" target="blank" href="https://www.linkedin.com/in/alberto-p%C3%A9rez-fructuoso-0981701a5/"><img src="img/linkedin.svg" alt="perfil linkedin"></a>
     </div>
     <div id="presentation">
-        <img id="header_img" src="img/header_img.jpg" alt="">
+        <img id="header_img" src="img/header_img.jpg" alt="imagen decorativa">
         <div id="header_content-light" class="content">
             <h1 style="margin-bottom: 3px">Bienvenido a mi CV (Versión Web)</h1>
             <p><strong>Aquí encontrarás mas información sobre mí, mucha mas de la que verás en mi documento CV.</strong></p>
         </div>
     </div>
-    <div id="conocimiento" class="container-light">
+    <div id="sobre_mi" class="container-light">
         <div class="content">
-            <img style="width: 555px; height: 311px;" src="img/content1.svg" alt="">
+            <img style="width: 511px; height: 299px;" src="img/content1.svg" alt="imagen decorativa">
         </div>
         <div class="content">
-            <h1>Conocimiento adquirido</h1>
+            <h2>Sobre mí</h2>
+            <p>Llevo 5 años dedicandome a la informática en general (Montaje y reparación de equipos, Instalación y</p>
+            <p>configuraciónde Sistemas Operativos, Despliegue de servidores, Manejo de redes locales, Seguridad, informática</p>
+            <p>etc). Actualmente estoy trabajando mediante la modalidad FP DUAL en una asesoria como informático y</p>
+            <p>estudiando para obtener un título superior de desarrollo de aplicaciones web.</p>
+        </div>
+    </div>
+    <div id="experiencias" class="container-light">
+        <div class="content">
+            <h2>Experiencia</h2>
+            <p>He llegado a trabajar en el departamento informático del hospital de Reina Sofia (Murcia).</p>
+            <p style="margin-top: 3%">Me dedicaba a resolver las incidencias generadas por los usuarios empleados del hospital.</p>
+            <ul style="margin-top: 1%">
+                <li style="margin-left: 3%">Reparación/Configuración de impresoras y equipos.</li>
+                <li style="margin-left: 3%">Asistencia telemática y presencial con los empleados del hospital.</li>
+                <li style="margin-left: 3%">Uso de herramientas de limpieza, optimización y eliminación de virus.</li>
+            </ul>
+        </div>
+        <div class="content">
+            <img class="img_content-light" src="img/content2.png" alt="imagen decorativa">
+        </div>
+    </div>
+    <div id="conocimiento" class="container-light">
+        <div class="content">
+            <h2>Conocimiento adquirido</h2>
             <table>
                 <tr>
                     <th>Título</th>
@@ -56,35 +80,12 @@
                 </tr>
                 <tr>
                     <td>Grado medio en Sistemas Microinformáticos y Redes</td>
-                    <td><p>Aprendí el manejo, securicación y optimización de una red de equipos asi como el uso de switches y routers.</p>
-                        <p>Desplegar y configurar varios tipos de servidores (Web, DHCP, FTP, DNS, Proxy, Correo Electrónico, etc)</p>
+                    <td><p>Aprendí el manejo, securicación y optimización de redes locales asi como el uso de switches y routers.</p>
+                        <p>Desplegar y administrar varios tipos de servidores (Web, DHCP, FTP, DNS, Proxy, Correo Electrónico, etc)</p>
+                        <p>También el montaje y mantenimento de equipos asi como el uso de software dedicado a la optimización y securicación.</p>
                     </td>
                 </tr>
             </table>
-        </div>
-    </div>
-    <div id="experiencias" class="container-light">
-        <div class="content">
-            <h1>Experiencia</h1>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit ante sed ullamcorper ultrices. Ut semper ligula in justo ls augue</p>
-            <p>posuere. Etiam lobortis sapien ut leo lacinia, facilisis feugiat nibh fringilla. Sed rhoncus tellus eget porttitor elementum. Praesepibus</p>
-            <p>et interdum eget, porttitor ultrices quam. Suspendisse et imperdiet ex, ac lobortis purus. Curabitur egestas, ligula sed laoreet consectdunt dui, </p>
-            <p>quis laoreet leo dolor vel massa. Curabitur nec scelerisque mauris. Morbi eget posuere nulla, et suscipit urna. Duis dui neque, </p>
-            <p>tellus. Nam quis facilisis nisl. Ut vestibulum porttitor nisl. Vivamus eu pellentesque turpis. Morbi sed lobortis ex.</p>
-        </div>
-        <div class="content">
-            <img class="img_content-light" src="img/content2.png" alt="">
-        </div>
-    </div>
-    <div id="sobre_mi" class="container-light">
-        <div class="content">
-            <img class="img_content-light" src="img/content3.jpg" alt="">
-        </div>
-        <div class="content">
-            <h1>Sobre mí</h1>
-            <p>Llevo 5 años dedicandome a la informática en general (Montaje y reparación de equipos, Instalación y</p>
-            <p>configuraciónde Sistemas Operativos, Despliegue de servidores, Manejo de redes locales, Seguridad, informática</p>
-            <p>etc). Actualmente estoy estudiando para obtener un título superior de Desarrollo de Aplicaciones Web.</p>
         </div>
     </div>
     <footer id="light_footer">
@@ -95,7 +96,7 @@
         </div>
         <div>
             <p style="margin-bottom: 9px"><a target="blank" href="https://gitlab.com/ALATEKA/my_cv_web/-/blob/master/LICENSE">GNU GENERAL PUBLIC LICENSE Version 3</a> by Alberto Pérez Fructuoso</p>
-            <p>Version: alpha_0.0.3</p>
+            <p>Version: Alpha_0.0.3</p>
         </div>
     </footer>
 </body>
