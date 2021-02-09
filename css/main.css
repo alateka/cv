@@ -13,7 +13,7 @@ nav {
 }
 nav a img {
     border: #34b679 3px solid;
-    border-radius: 50px;
+    border-radius: 33px;
     width: 39%;
 }
 .content {
@@ -36,7 +36,7 @@ nav a img {
     height: 511px;
 }
 table {
-    margin-top: 15px;
+    margin-top: 3%;
     border-collapse: collapse;
     width: 100%;
 }
@@ -44,13 +44,17 @@ table {
 th {
     border: 2px solid #646464;
     text-align: center;
-    padding: 8px;
+    padding: 1%;
 }
 td {
     border: 2px solid #646464;
     text-align: left;
-    padding: 8px;
+    padding: 1%;
 }
 li {
     margin-top: 1.33%;
+}
+#nav_links {
+    display: flex;
+    flex-wrap: wrap;
 }

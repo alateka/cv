@@ -4,7 +4,7 @@
     color: #000000;
 }
 .img_content-light {
-    width: 333px;
+    width: 100%;
     border-radius: 55px;
 }
 #social_bar-light {
@@ -17,6 +17,9 @@
     flex-direction: column;
     position: fixed;
     box-shadow: #444444 3px 3px 9px;
+}
+.noneElement {
+    display: none;
 }
 #social_bar-light img {
     width: 33px;
