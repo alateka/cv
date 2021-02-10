@@ -1,5 +1,5 @@
 #header_content-light {
-    border-radius: 55px;
+    border-radius: 31px;
     padding: 3%;
     top: 9%;
     position: absolute;
@@ -7,7 +7,7 @@
     color: #000000;
     background: #e2e2e2c9;
 }
-#nav_header-light {
+#header_nav-light {
     position: fixed;
     width: 100%;
     color: #ffffff;
@@ -16,7 +16,7 @@
     box-shadow: #444444 3px 3px 15px;
 }
 .light-nav_link {
-    margin: 5px;
+    margin: 3px;
     color: #ffffff;
     padding: 3px;
     border: #198754 5px solid;

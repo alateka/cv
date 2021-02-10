@@ -9,28 +9,21 @@
     <link rel="stylesheet" href="css/light_mode/header.css">
     <link rel="stylesheet" href="css/light_mode/footer.css">
     <link rel="stylesheet" href="css/light_mode/body.css">
-    <link rel="stylesheet" href="css/dark_mode/body.css">
-    <link rel="stylesheet" href="css/dark_mode/header.css">
-    <link rel="stylesheet" href="css/dark_mode/footer.css">
-    <script src="js/view_modes.js"></script>
-    <script src="js/phone_mode.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     </head>
-<body class="light_mode">
-    <header id="nav_header-light">
+<body onresize="phone_mode()" onload="phone_mode()" class="light_mode">
+    <header id="header_nav-light">
         <nav>
-            <a style="margin-left: 33px;" href="#"><img src="img/avatar.jpg" alt="inicio de la página"></a>
+            <a style="margin-left: 33px;" href="#"><img id="img_avatar" src="img/avatar.jpg" alt="inicio de la página"></a>
             <div id="nav_links">
                 <a class="light-nav_link" href="#sobre_mi">Sobre mí</a>
                 <a class="light-nav_link" href="#experiencias">Experiencias</a>
                 <a class="light-nav_link" href="#conocimiento">Conocimientos</a>
                 <a class="light-nav_link" href="#general">Info. general</a>
-                <a class="light-nav_link" href="#contacto">Contacto</a>
+                <a class="light-nav_link" href="mas_info.html">Habilidades</a>
             </div>
-            <div>
-                <a role="button" style="margin-right: 33px;" onclick="switchModes(this)" id="dark-mode" href="#">Modo Oscuro</a>
-            </div>
+            <img id="home_img" style="width: 1.99%; margin-right: 19px;" src="img/home.svg" alt="Página principal">
         </nav>
     </header>
     <div id="social_bar-light">
@@ -77,10 +70,13 @@
         <div class="content">
             <h2>Conocimiento adquirido</h2>
             <table>
+                <thead>
                 <tr>
                     <th>Título</th>
                     <th>Habilidades</th>
                 </tr>
+                </thead>
+                <tbody>
                 <tr>
                     <td>Grado medio en Sistemas Microinformáticos y Redes</td>
                     <td>
@@ -89,12 +85,13 @@
                         <p>También el montaje y mantenimento de equipos asi como el uso de software dedicado a la optimización y securicación.</p>
                     </td>
                 </tr>
+                </tbody>
             </table>
         </div>
     </div>
     <div id="general" class="container-light">
         <div class="content">
-            <img style="width: 511px; height: 299px;" src="img/address.svg" alt="Imagen decorativa">
+            <img class="img_content-light" src="img/address.svg" alt="Imagen decorativa">
         </div>
         <div class="content">
             <h3 style="margin-bottom: 3%">Información general:</h3>
@@ -108,7 +105,7 @@
     </div>
     <div id="contacto" class="container-light">
         <div class="content">
-            <img style="width: 511px; height: 299px;" src="img/contact.svg" alt="Imagen decorativa">
+            <img class="img_content-light" src="img/contact.svg" alt="Imagen decorativa">
         </div>
         <div class="content">
             <h3 style="margin-bottom: 3%">Información de contacto:</h3>
@@ -121,15 +118,16 @@
     </div>
     <footer id="light_footer">
         <div>
-            <img src="img/contact.png" alt="contacto">
+            <img id="contact_img" src="img/contact.png" alt="contacto">
             <p style="margin-bottom: 9px"><strong>Alberto Pérez Fructuoso</strong></p>
             <p>Movil - 629983744</p>
         </div>
         <div>
-            <a target="blank" href="https://creativecommons.org/licenses/by/4.0/deed.es"><img src="img/byCreativeCommons.svg" alt="Licencia Creative commons"></a>
+            <a target="blank" href="https://creativecommons.org/licenses/by/4.0/deed.es"><img id="license_img" src="img/byCreativeCommons.svg" alt="Licencia Creative commons"></a>
             <p style="margin-bottom: 9px"><a target="blank" href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative Commons</a> Alberto Pérez Fructuoso</p>
             <p>Version Web: Alpha_0.0.9</p>
         </div>
     </footer>
+    <script src="js/phone_mode.js"></script>
 </body>
 </html>

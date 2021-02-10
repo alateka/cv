@@ -11,7 +11,7 @@ nav {
     align-items: center;
     flex-wrap: wrap;
 }
-nav a img {
+#img_avatar {
     border: #34b679 3px solid;
     border-radius: 33px;
     width: 39%;
@@ -30,6 +30,7 @@ nav a img {
     margin-bottom: 3%;
 }
 #header_img {
+    margin-bottom: 1%;
     position: relative;
     z-index: -2;
     width: 100%;
@@ -58,3 +59,4 @@ li {
     display: flex;
     flex-wrap: wrap;
 }
+.p_space { margin-bottom: 1%; }

@@ -2,6 +2,7 @@
     font-family: 'Ubuntu';
     background-color: #e4e4e4;
     color: #000000;
+    font-size: 99%;
 }
 .img_content-light {
     width: 100%;
@@ -18,14 +19,11 @@
     position: fixed;
     box-shadow: #444444 3px 3px 9px;
 }
-.noneElement {
-    display: none;
-}
 #social_bar-light img {
     width: 33px;
 }
 .container-light {
-    border-radius: 39px;
+    border-radius: 19px;
     margin: 0px 3% 3% 3%;
     display: flex;
     flex-wrap: wrap;

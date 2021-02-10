@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/light_mode/header.css">
+    <link rel="stylesheet" href="css/light_mode/footer.css">
+    <link rel="stylesheet" href="css/light_mode/body.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body onresize="phone_mode()" onload="phone_mode()" class="light_mode">
+<header id="header_nav-light">
+    <nav>
+        <a style="margin-left: 33px;" href="#"><img id="img_avatar" src="img/avatar.jpg" alt="inicio de la página"></a>
+        <div style="margin-right: 19px;" id="nav_links">
+            <a class="light-nav_link" href="index.html"><img style="width: 19%" src="img/return.png"> Regresar</a>
+        </div>
+    </nav>
+</header>
+<div id="social_bar-light">
+    <a class="light-nav_link" target="blank" href="https://gitlab.com/ALATEKA"><img src="img/gitlab.svg" alt="perfil gitlab"></a>
+    <a class="light-nav_link" target="blank" href="https://twitter.com/1ALATEKA"><img src="img/twitter.svg" alt="perfil twitter"></a>
+    <a class="light-nav_link" onclick="alert('Alias Telegram ==> @ALATEKA')" href="#"><img src="img/telegram.svg" alt="alias telegram @ALATEKA"></a>
+    <a class="light-nav_link" target="blank" href="https://www.linkedin.com/in/alberto-p%C3%A9rez-fructuoso-0981701a5/"><img src="img/linkedin.svg" alt="perfil linkedin"></a>
+</div>
+<div id="presentation">
+    <img id="header_img" src="img/header_img.jpg" alt="Imagen decorativa de presentación">
+    <div id="header_content-light" class="content">
+        <h1 style="margin-bottom: 3px">Bienvenido a mi CV (Versión Web)</h1>
+        <p><strong>Aquí encontrarás mas información sobre mí, mucha mas de la que verás en mi documento CV.</strong></p>
+    </div>
+</div>
+<div id="sobre_mi" class="container-light">
+    <div class="content">
+        <p><b>Capacidad de administración y configuración de distribuciones
+            GNU/Linux (Cliente/Servidor),  así como Winodws cliente y Windows Server</b></p>
+
+        <p style="margin-bottom: 1%; margin-top: 2%"><b>Servidores:</b></p>
+
+        <p class="p_space"><b>DNS:</b> Crear y
+            configurar zonas en la red para asignar nombres de dominio a los
+            equipos conectados.</p>
+
+        <p class="p_space"><b>DHCP:</b> Instalar o configurar un servicio DHCP para la asignación automática de
+            direcciones IP a los dispositivos en la red.</p>
+
+        <p class="p_space"><b>Proxy:</b> Configurar
+            un servicio proxy que puede actual tanto de cache web como toma de
+            control de acceso a determinados sitios web</p></p>
+
+        <p class="p_space"><b>SAMBA (SMB):</b> Para
+            compartir directorios en una red de ordenadores Windows o una red con
+            clientes Windows y Linux.</p>
+
+        <p class="p_space"><b>NFS:</b> Exportar
+            (Compartir) directorios a todos los ordenadores de la red mediante
+            este protocolo.</p>
+
+        <p class="p_space"><b>SSH:</b> Para la
+            conexión remota desde una máquina cliente hacia el servidor y/o
+            configurar SFTP para transferencia de ficheros.</p>
+    </div>
+</div>
+<footer id="light_footer">
+    <div>
+        <img id="contact_img" src="img/contact.png" alt="contacto">
+        <p style="margin-bottom: 9px"><strong>Alberto Pérez Fructuoso</strong></p>
+        <p>Movil - 629983744</p>
+    </div>
+    <div>
+        <a target="blank" href="https://creativecommons.org/licenses/by/4.0/deed.es"><img id="license_img" src="img/byCreativeCommons.svg" alt="Licencia Creative commons"></a>
+        <p style="margin-bottom: 9px"><a target="blank" href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative Commons</a> Alberto Pérez Fructuoso</p>
+        <p>Version Web: Alpha_0.0.9</p>
+    </div>
+</footer>
+<script src="js/phone_mode.js"></script>
+</body>
+</html>
