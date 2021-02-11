@@ -7,7 +7,6 @@ function phone_mode() {
 
     document.getElementById('header_nav-light').style.fontSize = '100%';
     document.getElementById('img_avatar').style.display = 'block';
-   document.getElementById('home_img').style.display = 'block';
    document.getElementsByTagName('body')[0].style.fontSize = '100%';
    document.getElementById('header_content-light').style.fontSize = '100%';
    document.getElementById('img_avatar').style.width = '39%';
@@ -25,7 +24,6 @@ function phone_mode() {
 
    document.getElementById('header_nav-light').style.fontSize = '71%';
    document.getElementById('img_avatar').style.display = 'none';
-   document.getElementById('home_img').style.display = 'none';
    document.getElementsByTagName('body')[0].style.fontSize = '71%';
    document.getElementById('header_content-light').style.fontSize = '55%';
    document.getElementById('img_avatar').style.width = '15%';
