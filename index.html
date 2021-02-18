@@ -9,21 +9,24 @@
     <link rel="stylesheet" href="css/light_mode/header.css">
     <link rel="stylesheet" href="css/light_mode/footer.css">
     <link rel="stylesheet" href="css/light_mode/body.css">
+    <link rel="stylesheet" href="css/dark_mode/body.css">
+    <link rel="stylesheet" href="css/dark_mode/footer.css">
+    <link rel="stylesheet" href="css/dark_mode/header.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     </head>
 <body onresize="phone_mode()" onload="phone_mode()" class="light_mode">
     <header id="header_nav-light">
-        <nav>
+        <nav id="nav_header-light">
             <a style="margin-left: 33px;" href="index.html"><img id="img_avatar" src="img/avatar.jpg" alt="inicio de la página"></a>
             <div id="nav_links">
                 <a class="light-nav_link" href="#sobre_mi">Sobre mí</a>
                 <a class="light-nav_link" href="#experiencias">Experiencias</a>
                 <a class="light-nav_link" href="#conocimiento">Conocimientos</a>
+                <a class="light-nav_link" href="#habilidades">Habilidades</a>
                 <a class="light-nav_link" href="#general">Info. general</a>
-                <a class="light-nav_link" href="skills.html">Habilidades</a>
             </div>
-            <img id="home_img" style="width: 1.99%; margin-right: 19px;" src="img/home.svg" alt="Página principal">
+            <a role="button" style="margin-right: 33px;" onclick="switchModes(this)" id="dark-mode" href="#">Modo Oscuro</a>
         </nav>
     </header>
     <div id="social_bar-light">
@@ -89,10 +92,10 @@
             </table>
         </div>
     </div>
-    <div id="sobre_mi" class="container-light">
+    <div id="habilidades" class="container-light">
         <div class="content">
-            <p><b>Administración y configuración de distribuciones
-                GNU/Linux (Cliente/Servidor),  así como Winodws cliente y Windows Server</b></p>
+            <h2><b>Administración y configuración de distribuciones
+                GNU/Linux (Cliente/Servidor),  así como Winodws cliente y Windows Server</b></h2>
     
             <p style="margin-bottom: 1%; margin-top: 2%"><b>Servidores:</b></p>
     
@@ -162,16 +165,23 @@
     </div>
     <footer id="light_footer">
         <div>
-            <img id="contact_img" src="img/contact.png" alt="contacto">
+            <div id="contact_img"><img src="img/contact.png" alt="contacto"></div>
             <p style="margin-bottom: 9px"><strong>Alberto Pérez Fructuoso</strong></p>
             <p>Movil - 629983744</p>
         </div>
+        <div id="social_footer">
+            <a class="light-nav_link" target="blank" href="https://gitlab.com/ALATEKA"><img src="img/gitlab.svg" style="width: 9%;" alt="perfil gitlab"></a>
+            <a class="light-nav_link" target="blank" href="https://twitter.com/1ALATEKA"><img src="img/twitter.svg" style="width: 9%;" alt="perfil twitter"></a>
+            <a class="light-nav_link" onclick="alert('Alias Telegram ==> @ALATEKA')" href="#"><img src="img/telegram.svg" style="width: 9%;" alt="alias telegram @ALATEKA"></a>
+            <a class="light-nav_link" target="blank" href="https://www.linkedin.com/in/alberto-p%C3%A9rez-fructuoso-0981701a5/"><img style="width: 9%;" src="img/linkedin.svg" alt="perfil linkedin"></a>
+        </div>
         <div>
-            <a target="blank" href="https://creativecommons.org/licenses/by/4.0/deed.es"><img id="license_img" src="img/byCreativeCommons.svg" alt="Licencia Creative commons"></a>
+            <a target="blank" href="https://creativecommons.org/licenses/by/4.0/deed.es"><div id="license_img"><img src="img/byCreativeCommons.svg" alt="Licencia Creative commons"></div></a>
             <p style="margin-bottom: 9px"><a target="blank" href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative Commons</a> Alberto Pérez Fructuoso</p>
             <p>Version Web: Alpha_0.0.9</p>
         </div>
     </footer>
     <script src="js/phone_mode.js"></script>
+    <script src="js/view_modes.js"></script>
 </body>
 </html>

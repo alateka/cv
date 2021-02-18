@@ -15,6 +15,9 @@
     border: 7px solid #198754;
     box-shadow: #444444 3px 3px 15px;
 }
+#social_footer {
+    margin-top: 3%;
+}
 .light-nav_link {
     margin: 3px;
     color: #ffffff;

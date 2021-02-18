@@ -1,0 +1,35 @@
+#header_content-dark {
+    border-radius: 55px;
+    padding: 3%;
+    top: 9%;
+    position: absolute;
+    z-index: -1;
+    color: #ffffff;
+    background: #2d2d2de9;
+}
+.dark-nav_link {
+    margin: 5px;
+    color: #ffffff;
+    padding: 3px;
+    border: #198754 5px solid;
+    border-radius: 9px;
+}
+.dark-nav_link:hover {
+    color: #e4e4e4;
+    transition-duration: 0.5s;
+    background-color: #323031;
+    border: #323031 5px solid;
+}
+#dark-mode {
+    margin: 5px;
+    color: #ffffff;
+    padding: 3px;
+    border: #198754 5px solid;
+    border-radius: 9px;
+}
+#dark-mode:hover {
+    color: #e4e4e4;
+    transition-duration: 0.5s;
+    background-color: #323031;
+    border: #323031 5px solid;
+}
