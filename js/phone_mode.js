@@ -1,10 +1,14 @@
 
 function phone_mode() {
 
- let screemSize = window.screen.availWidth;
+ screemSize = window.screen.availWidth;
 
   if (screemSize > 833) {
-  document.getElementById('social_footer').style.display = 'none';
+   document.getElementById('header_content-light').style.boxShadow = 'unset';
+   document.getElementById('header_content-light').style.marginTop = '0%';
+   document.getElementById('header_content-light').style.position = 'absolute';
+   document.getElementById('header_img').style.display = 'block';
+   document.getElementById('social_footer').style.display = 'none';
   document.getElementById('header_nav-light').style.fontSize = '100%';
   document.getElementById('img_avatar').style.display = 'block';
    document.getElementsByTagName('body')[0].style.fontSize = '100%';
@@ -26,7 +30,11 @@ function phone_mode() {
 
   } else if ( screemSize < 833 ) {
 
-    document.getElementById('social_footer').style.display = 'block';
+   document.getElementById('header_content-light').style.boxShadow = 'unset';
+   document.getElementById('header_content-light').style.marginTop = '71px';
+   document.getElementById('header_content-light').style.position = 'unset';
+   document.getElementById('header_img').style.display = 'none';
+   document.getElementById('social_footer').style.display = 'block';
    document.getElementById('header_nav-light').style.fontSize = '71%';
    document.getElementById('img_avatar').style.display = 'none';
    document.getElementsByTagName('body')[0].style.fontSize = '71%';

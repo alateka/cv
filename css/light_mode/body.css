@@ -24,7 +24,7 @@
 }
 .container-light {
     border-radius: 19px;
-    margin: 0px 3% 3% 3%;
+    margin: 3% 3% 3%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

@@ -3,6 +3,7 @@ function switchModes(mode)
  if ( mode.innerText == 'Modo Oscuro' ) {
   mode.innerText = 'Modo Claro';
   document.body.className = 'dark_mode';
+
   for ( let i=1; i<11; i++ ) {
    document.getElementsByTagName('a')[i].className = 'dark-nav_link';
   }
@@ -18,6 +19,11 @@ function switchModes(mode)
   document.getElementById("nav_header-light").id = "nav_header-dark";
   document.getElementById("header_content-light").id = "header_content-dark";
 
+  if ( screemSize > 833 ) {
+   document.getElementById('header_content-light').style.background = '#e2e2e2c9';
+  } else {
+   document.getElementById('header_content-light').style.background = '#3d3d3dc9';
+  }
  } else {
 
   mode.innerText = 'Modo Oscuro';
