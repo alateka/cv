@@ -4,7 +4,7 @@ function switchModes(mode)
   mode.innerText = 'Modo Claro';
   document.body.className = 'dark_mode';
 
-  for ( let i=1; i<11; i++ ) {
+  for ( let i=1; i<document.getElementsByTagName('a').length; i++ ) {
    document.getElementsByTagName('a')[i].className = 'dark-nav_link';
   }
   document.getElementById('dark-mode').id = 'light-mode';
@@ -28,7 +28,7 @@ function switchModes(mode)
 
   mode.innerText = 'Modo Oscuro';
   document.body.className = 'light_mode';
-  for ( let i=1; i<11; i++ ) {
+  for ( let i=1; i<document.getElementsByTagName('a').length; i++ ) {
    document.getElementsByTagName('a')[i].className = 'light-nav_link';
   }
   document.getElementById('light-mode').id = 'dark-mode';
