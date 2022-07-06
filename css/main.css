@@ -58,4 +58,4 @@ li {
     display: flex;
     flex-wrap: wrap;
 }
-.p_space { margin-bottom: 1%; }
+p { margin-bottom: 1%; }
