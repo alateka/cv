@@ -6,6 +6,7 @@
 .img_content-dark {
     width: 333px;
     border-radius: 55px;
+    border: #3d3d3d solid 3px;
 }
 #social_bar-dark {
     margin-top: 199px;

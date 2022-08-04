@@ -9,7 +9,7 @@ function switchModes(mode)
   }
   document.getElementById('dark-mode').id = 'light-mode';
   document.getElementById('light_footer').id = 'dark_footer';
-  for ( let i=0; i<1; i++ ) {
+  for ( let i=0; i<4; i++ ) {
    document.getElementsByClassName("img_content-light")[0].className = "img_content-dark";
   }
   for ( let i=0; i<6; i++) {
@@ -33,7 +33,7 @@ function switchModes(mode)
   }
   document.getElementById('light-mode').id = 'dark-mode';
   document.getElementById('dark_footer').id = 'light_footer';
-  for ( let i=0; i<1; i++ ) {
+  for ( let i=0; i<4; i++ ) {
    document.getElementsByClassName("img_content-dark")[0].className = "img_content-light";
   }
   for ( let i=0; i<6; i++) {
