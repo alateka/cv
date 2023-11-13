@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* html { // TODO Add custom font
+    font-family: 'Nunito', sans-serif, Arial, Helvetica;
+  } */
+  ::-webkit-scrollbar-thumb{
+    @apply bg-transparent shadow-sm
+  }
+  ::-webkit-scrollbar{
+    @apply w-3 bg-transparent
+  }
+  ::-webkit-scrollbar-thumb{
+    @apply rounded-xl bg-gray-500
+  }
+}
+
+@layer components {
+
+  /* NAVBAR */
+  .navbar {
+    @apply bg-gray-100/80 text-gray-700 rounded-b-xl backdrop-blur-md shadow-md dark:bg-gray-800/90 dark:text-gray-100 flex justify-between items-center p-3;
+  }
+
+  /* FOOTER */
+  .footer {
+    @apply bg-gray-100 text-gray-700 rounded-t-xl shadow-md dark:bg-gray-800 dark:text-gray-100 border-x-2 border-t-2 dark:border-gray-900 border-gray-300 flex justify-between p-3 h-20 text-xs;
+  }
+
+  /* CONTAINER BASE */
+  .container_base {
+    @apply bg-gray-100 text-gray-700 rounded-xl shadow-md dark:bg-gray-800 dark:text-gray-100 border-2 dark:border-gray-900 border-gray-300;
+  }
+
+  /* FORM INPUT */
+  .form_input {
+    @apply h-10 bg-gray-50 text-gray-700 rounded-xl shadow-md dark:bg-gray-900 dark:text-gray-100 border border-gray-400 dark:border-gray-500;
+  }
+
+  /* BASE BUTTONS */
+  .base_button {
+    @apply border dark:border-gray-800/5 dark:hover:bg-gray-700 dark:hover:border-gray-900 border-gray-100/5 hover:bg-gray-200 hover:border-gray-300 duration-200 p-2 rounded-xl;
+  }
+}
