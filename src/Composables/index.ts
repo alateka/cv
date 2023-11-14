@@ -1,0 +1,1 @@
+export { getDataFromDB } from "./getDataFromDB";

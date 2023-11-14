@@ -1,16 +1,9 @@
 <script setup lang="ts">
-import { Body } from "@components/index.ts";
-
-defineProps({
-  data: {
-    type: Object,
-    default: {},
-  },
-});
+import { AppBody } from "@components/index.ts";
 </script>
 
 <template>
-  <Body>
-    <h1>La página inicio</h1>
-  </Body>
+  <AppBody>
+    <h1 class="bg-red-500">La página inicio</h1>
+  </AppBody>
 </template>

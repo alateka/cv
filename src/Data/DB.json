@@ -1,0 +1,21 @@
+{
+  "navbar": [
+    {
+      "id": 1,
+      "label": "Sobre mí"
+    },
+    {
+      "id": 2,
+      "label": "Experiencias"
+    },
+    {
+      "id": 3,
+      "label": "Conocimientos"
+    },
+    {
+      "id": 4,
+      "label": "Habilidades"
+    }
+  ],
+  "title": "CV web"
+}

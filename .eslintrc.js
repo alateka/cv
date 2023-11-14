@@ -27,6 +27,8 @@ export const rules = {
   "vue/singleline-html-element-content-newline": "off",
   // Disable vue/no-mutating-props rule
   "vue/no-mutating-props": "off",
+  // Require v-bind:key with v-for directives
+  "vue/require-v-for-key": "on",
 
   /* -----------------------  ESLINT Rules ---------------------------------------- */
   // Allow parentheses around single arguments in arrow functions
