@@ -4,8 +4,8 @@ import {
   AppLogo,
   AppDisplayFlex,
   AppButton,
-  LightMode,
-  DarkMode,
+  LightModeIcon,
+  DarkModeIcon,
 } from "@components/index.ts";
 import { getDataFromDB } from "@composables/index.ts";
 import { ref } from "vue";
@@ -53,14 +53,14 @@ const setLightTheme = () => {
           label="Modo Oscuro"
           @handle-click="setDarkTheme()"
         >
-          <DarkMode class="mr-3" />
+          <DarkModeIcon class="mr-3" />
         </AppButton>
         <AppButton
           v-show="isDarkMode"
           label="Modo Claro"
           @handle-click="setLightTheme()"
         >
-          <LightMode class="fill-white mr-3" />
+          <LightModeIcon class="fill-white mr-3" />
         </AppButton>
       </AppDisplayFlex>
     </nav>
