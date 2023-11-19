@@ -2,23 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Apply font */
+@font-face {
+  font-family: "Nunito-Regular";
+  src:
+    local("Nunito-Regular"),
+    url(@assets/Fonts/Nunito-Regular.ttf) format("truetype");
+}
+* {
+  font-family: "Nunito-Regular";
+}
+
 @layer base {
-  /* html { // TODO Add custom font
-    font-family: 'Nunito', sans-serif, Arial, Helvetica;
-  } */
-  ::-webkit-scrollbar-thumb{
-    @apply bg-transparent shadow-sm
+  ::-webkit-scrollbar-thumb {
+    @apply bg-transparent shadow-sm;
   }
-  ::-webkit-scrollbar{
-    @apply w-3 bg-transparent
+  ::-webkit-scrollbar {
+    @apply w-3 bg-transparent;
   }
-  ::-webkit-scrollbar-thumb{
-    @apply rounded-xl bg-gray-500
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-xl bg-gray-500;
   }
 }
 
 @layer components {
-
   /* NAVBAR */
   .navbar {
     @apply bg-gray-100/80 text-gray-700 rounded-b-xl backdrop-blur-md shadow-md dark:bg-gray-800/90 dark:text-gray-100 flex justify-between items-center p-3;

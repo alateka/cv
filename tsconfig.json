@@ -1,5 +1,5 @@
 {
-  "compilerOptions": {    
+  "compilerOptions": {
     "target": "ES2020",
     "useDefineForClassFields": true,
     "module": "ESNext",
@@ -11,7 +11,8 @@
       "@pages/*": ["./src/Pages"],
       "@assets/*": ["./src/Assets"],
       "@composables/*": ["./src/Composables"],
-      "@data/*": ["./src/Data"]
+      "@data/*": ["./src/Data"],
+      "@interfaces/*": ["./src/Interfaces"]
     },
 
     /* Bundler mode */
