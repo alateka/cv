@@ -5,3 +5,5 @@ export { default as AppDisplayFlex } from "./Utils/AppDisplayFlex.vue";
 export { default as AppNavbarButtons } from "./Utils/AppNavbarButtons.vue";
 export { default as AppButton } from "./Utils/AppButton.vue";
 export { default as AppLogo } from "./Base/AppLogo.vue";
+export { default as LightMode } from "./Utils/Icons/LightMode.vue";
+export { default as DarkMode } from "./Utils/Icons/DarkMode.vue";
