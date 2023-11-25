@@ -555,6 +555,7 @@ video {
 /* NAVBAR */
 
 .left_menu {
+  visibility: hidden;
   position: fixed;
   left: 0px;
   display: flex;
@@ -578,6 +579,12 @@ video {
   background-color: rgb(6 95 70 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(209 250 229 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .left_menu {
+    visibility: visible;
+  }
 }
 
 /* FOOTER */
@@ -620,6 +627,8 @@ video {
   border-color: rgb(110 231 183 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(209 250 229 / var(--tw-bg-opacity));
+  font-size: 0.75rem;
+  line-height: 1rem;
   --tw-text-opacity: 1;
   color: rgb(6 78 59 / var(--tw-text-opacity));
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
@@ -634,6 +643,13 @@ video {
   background-color: rgb(6 95 70 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(209 250 229 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .container_base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 /* BODY BASE */
@@ -684,13 +700,14 @@ video {
   position: relative;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
-}
-
-.ml-auto {
-  margin-left: auto;
 }
 
 .mr-3 {
@@ -709,12 +726,12 @@ video {
   width: 7rem;
 }
 
-.w-3\/4 {
-  width: 75%;
-}
-
 .w-9 {
   width: 2.25rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .cursor-default {
@@ -759,6 +776,14 @@ video {
   line-height: 2rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
 /* Apply font */
 
 @font-face {
@@ -771,6 +796,16 @@ video {
 
 * {
   font-family: "Nunito-Regular";
+}
+
+@media (min-width: 768px) {
+  .md\:mr-3 {
+    margin-right: 0.75rem;
+  }
+
+  .md\:w-3\/4 {
+    width: 75%;
+  }
 }
 
 @media (min-width: 1024px) {

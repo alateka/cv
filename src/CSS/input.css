@@ -28,7 +28,7 @@
 @layer components {
   /* NAVBAR */
   .left_menu {
-    @apply fixed h-full left-0 rounded-tr-full shadow-md flex flex-col justify-around items-center p-3 text-emerald-700 dark:text-emerald-100 bg-emerald-50 dark:bg-emerald-800;
+    @apply invisible md:visible fixed h-full left-0 rounded-tr-full shadow-md flex flex-col justify-around items-center p-3 text-emerald-700 dark:text-emerald-100 bg-emerald-50 dark:bg-emerald-800;
   }
 
   /* FOOTER */
@@ -38,7 +38,7 @@
 
   /* CONTAINER BASE */
   .container_base {
-    @apply bg-emerald-100 text-emerald-900 rounded-xl shadow-md dark:bg-emerald-800 dark:text-emerald-100 border-2 dark:border-emerald-900 border-emerald-300;
+    @apply text-xs md:text-base bg-emerald-100 text-emerald-900 rounded-xl shadow-md dark:bg-emerald-800 dark:text-emerald-100 border-2 dark:border-emerald-900 border-emerald-300;
   }
 
   /* BODY BASE */
