@@ -10,4 +10,5 @@ export interface DbInterface {
   creative_commons_text: String;
   full_name: String;
   mobile: String;
+  alt_selfie: String;
 }
