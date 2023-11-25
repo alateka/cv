@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import {
   ContactIcon,
-  CreativeCommonsIcon,
   AppDisplayFlex,
   AppText,
+  AppLink,
 } from "@components/index.ts";
 
 import { getDataFromDB } from "@composables/index.ts";
@@ -19,8 +19,10 @@ import { getDataFromDB } from "@composables/index.ts";
       </AppDisplayFlex>
     </AppDisplayFlex>
     <AppDisplayFlex class="items-center">
-      <CreativeCommonsIcon class="mr-3" />
-      <AppText :value="getDataFromDB().creative_commons_text.toString()" />
+      <AppLink
+        :text="getDataFromDB().creative_commons.text.toString()"
+        :href="getDataFromDB().creative_commons.link.toString()"
+      />
     </AppDisplayFlex>
   </footer>
 </template>

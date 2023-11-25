@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import {
   AppNavbarButtons,
-  AppLogo,
   AppColorSchemeButton,
+  AppImg,
 } from "@components/index.ts";
 import { getDataFromDB } from "@composables/index.ts";
 </script>
@@ -10,7 +10,12 @@ import { getDataFromDB } from "@composables/index.ts";
 <template>
   <header class="relative">
     <nav class="left_menu">
-      <AppLogo />
+      <AppImg
+        src="/src/Assets/IMG/Face.webp"
+        class="w-28"
+        :alt="getDataFromDB().alt_selfie.toString()"
+        href="/"
+      />
 
       <!-- Navbar Buttons -->
       <AppNavbarButtons :buttons="getDataFromDB().navbar" />

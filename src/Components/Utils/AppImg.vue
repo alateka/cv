@@ -8,9 +8,19 @@ defineProps({
     type: String,
     default: "",
   },
+  href: {
+    type: String,
+    default: "#",
+  },
+  imgClass: {
+    type: String,
+    default: "",
+  },
 });
 </script>
 
 <template>
-  <img :src="src" :alt="alt" />
+  <a :href="href" :class="href === '#' ? 'cursor-default' : ''">
+    <img :class="imgClass" :src="src" :alt="alt" />
+  </a>
 </template>

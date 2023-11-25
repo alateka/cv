@@ -1,4 +1,7 @@
-import { NavbarInterface } from "@interfaces/index.ts";
+import {
+  NavbarInterface,
+  CreativeCommonsInterface,
+} from "@interfaces/index.ts";
 
 export interface DbInterface {
   navbar: Array<NavbarInterface>;
@@ -7,7 +10,7 @@ export interface DbInterface {
   languages_used: String;
   frameworks_used: String;
   first_description: String;
-  creative_commons_text: String;
+  creative_commons: CreativeCommonsInterface;
   full_name: String;
   mobile: String;
   alt_selfie: String;
