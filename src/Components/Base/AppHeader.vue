@@ -11,7 +11,7 @@ import { getDataFromDB } from "@composables/index.ts";
   <header class="relative">
     <nav class="left_menu">
       <AppImg
-        src="/src/Assets/IMG/Face.webp"
+        src="Assets/IMG/Face.webp"
         class="w-28"
         :alt="getDataFromDB().alt_selfie.toString()"
         href="/"
