@@ -3,7 +3,7 @@ import { AppHeader, AppFooter } from "@components/index.ts";
 </script>
 
 <template>
-  <div class="base_body">
+  <div>
     <AppHeader />
     <slot />
     <AppFooter />

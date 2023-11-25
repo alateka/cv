@@ -18,6 +18,9 @@
     }
   ],
   "title": "CV web",
+  "welcome": "Bienvenido a mi CV (Versión Web)",
+  "languages_used": "Lenguajes usados: Java | PHP | C# | Python | JavaScript | HTML | CSS | GO(golang) | Dart",
+  "frameworks_used": "Frameworks usados: Laravel | .NET & .NET core | Vue.js | Boostrap CSS | TailwindCSS",
   "first_description": "Llevo 8 años dedicándome a la informática en general (Montaje y reparación de equipos, Instalación y configuración de Sistemas Operativos, Despliegue de servidores, Manejo de redes locales, Seguridad informática, etc). Actualmente estoy como desarrollador (Full Stack) en QUENTAL TECHNOLOGIES S.L.",
   "creative_commons_text": "Creative Commons by Alberto Pérez Fructuoso",
   "full_name": "Alberto Pérez Fructuoso",

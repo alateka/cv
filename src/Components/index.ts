@@ -11,3 +11,6 @@ export { default as ContactIcon } from "./Utils/Icons/ContactIcon.vue";
 export { default as CreativeCommonsIcon } from "./Utils/Icons/CreativeCommonsIcon.vue";
 export { default as AppText } from "./Utils/AppText.vue";
 export { default as AppContainer } from "./Utils/AppContainer.vue";
+export { default as AppColorSchemeButton } from "./Base/AppColorSchemeButton.vue";
+export { default as AppTitle } from "./Utils/AppTitle.vue";
+export { default as AppImg } from "./Utils/AppImg.vue";

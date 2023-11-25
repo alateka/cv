@@ -11,7 +11,7 @@ defineProps({
 </script>
 
 <template>
-  <ul class="flex gap-5">
+  <ul class="flex flex-col gap-5">
     <li v-for="button in buttons">
       <AppButton
         @handle-click="console.log('click')"

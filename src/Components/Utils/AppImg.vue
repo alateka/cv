@@ -1,6 +1,10 @@
 <script setup lang="ts">
 defineProps({
-  value: {
+  src: {
+    type: String,
+    default: "",
+  },
+  alt: {
     type: String,
     default: "",
   },
@@ -8,5 +12,5 @@ defineProps({
 </script>
 
 <template>
-  <span>{{ value }}</span>
+  <img :src="src" :alt="alt" />
 </template>
