@@ -1,1 +1,2 @@
-export { getDataFromDB } from "./getDataFromDB";
+export { getDataFromDB } from "./GetDataFromDB";
+export { injectionKey } from "./InjectionKey";

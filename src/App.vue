@@ -1,10 +1,16 @@
 <script setup lang="ts">
-import { Home } from "@pages/index.ts";
 import { AppBody } from "@components/index.ts";
+import { provide, shallowRef } from "vue";
+import { injectionKey } from "@composables/index.ts";
+
+const currentComponent = shallowRef();
+provide(injectionKey, {
+  currentComponent,
+});
 </script>
 
 <template>
   <AppBody>
-    <Home />
+    <component :is="currentComponent" />
   </AppBody>
 </template>

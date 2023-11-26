@@ -13,7 +13,7 @@ import { getDataFromDB } from "@composables/index.ts";
       <AppImg
         src="Assets/IMG/Face.webp"
         class="w-28"
-        :alt="getDataFromDB().alt_selfie.toString()"
+        :alt="getDataFromDB().alt_selfie"
         href="/"
       />
 

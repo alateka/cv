@@ -1,4 +1,4 @@
 export interface CreativeCommonsInterface {
-  text: String;
-  link: String;
+  text: string;
+  link: string;
 }

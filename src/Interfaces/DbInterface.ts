@@ -5,13 +5,13 @@ import {
 
 export interface DbInterface {
   navbar: Array<NavbarInterface>;
-  title: String;
-  welcome: String;
-  languages_used: String;
-  frameworks_used: String;
-  first_description: String;
+  title: string;
+  welcome: string;
+  languages_used: string;
+  frameworks_used: string;
+  first_description: string;
   creative_commons: CreativeCommonsInterface;
-  full_name: String;
-  mobile: String;
-  alt_selfie: String;
+  full_name: string;
+  mobile: string;
+  alt_selfie: string;
 }

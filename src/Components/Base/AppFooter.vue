@@ -14,14 +14,14 @@ import { getDataFromDB } from "@composables/index.ts";
     <AppDisplayFlex class="items-center">
       <ContactIcon class="mr-3 w-9" />
       <AppDisplayFlex class="flex-col">
-        <AppText :value="getDataFromDB().full_name.toString()" />
-        <AppText :value="getDataFromDB().mobile.toString()" />
+        <AppText :value="getDataFromDB().full_name" />
+        <AppText :value="getDataFromDB().mobile" />
       </AppDisplayFlex>
     </AppDisplayFlex>
     <AppDisplayFlex class="items-center">
       <AppLink
-        :text="getDataFromDB().creative_commons.text.toString()"
-        :href="getDataFromDB().creative_commons.link.toString()"
+        :text="getDataFromDB().creative_commons.text"
+        :href="getDataFromDB().creative_commons.link"
       />
     </AppDisplayFlex>
   </footer>

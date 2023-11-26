@@ -1,4 +1,4 @@
 export interface NavbarInterface {
-  id: Number;
-  label: String;
+  id: number;
+  label: string;
 }

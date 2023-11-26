@@ -22,13 +22,13 @@ if (
   isDarkMode.value = false;
 }
 
-const setDarkTheme = () => {
+const setDarkTheme = (): void => {
   document.documentElement.classList.add("dark");
   localStorage.theme = "dark";
   isDarkMode.value = true;
 };
 
-const setLightTheme = () => {
+const setLightTheme = (): void => {
   document.documentElement.classList.remove("dark");
   localStorage.theme = "light";
   isDarkMode.value = false;
@@ -39,10 +39,10 @@ const setLightTheme = () => {
   <!-- THEME SWAP (DARK / LIGHT) -->
   <AppDisplayFlex class="flex items-center">
     <AppButton v-show="!isDarkMode" @handle-click="setDarkTheme()">
-      <DarkModeIcon class="mr-3" />
+      <DarkModeIcon />
     </AppButton>
     <AppButton v-show="isDarkMode" @handle-click="setLightTheme()">
-      <LightModeIcon class="fill-white mr-3" />
+      <LightModeIcon class="fill-white" />
     </AppButton>
   </AppDisplayFlex>
 </template>

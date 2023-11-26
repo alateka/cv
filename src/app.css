@@ -762,6 +762,10 @@ video {
   fill: #fff;
 }
 
+.p-7 {
+  padding: 1.75rem;
+}
+
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
