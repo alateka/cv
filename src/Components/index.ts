@@ -13,3 +13,5 @@ export { default as AppColorSchemeButton } from "./Base/AppColorSchemeButton.vue
 export { default as AppTitle } from "./Utils/AppTitle.vue";
 export { default as AppImg } from "./Utils/AppImg.vue";
 export { default as AppLink } from "./Utils/AppLink.vue";
+export { default as AppList } from "./Utils/AppList.vue";
+export { default as AppSpaceBar } from "./Utils/AppSpaceBar.vue";

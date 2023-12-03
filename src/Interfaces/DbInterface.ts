@@ -1,6 +1,7 @@
 import {
   NavbarInterface,
   CreativeCommonsInterface,
+  ExperienceSectionInterface,
 } from "@interfaces/index.ts";
 
 export interface DbInterface {
@@ -14,4 +15,5 @@ export interface DbInterface {
   full_name: string;
   mobile: string;
   alt_selfie: string;
+  experience_section: ExperienceSectionInterface;
 }

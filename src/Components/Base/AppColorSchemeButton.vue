@@ -4,6 +4,7 @@ import {
   LightModeIcon,
   DarkModeIcon,
   AppDisplayFlex,
+  AppText,
 } from "@components/index.ts";
 import { ref } from "vue";
 
@@ -39,10 +40,12 @@ const setLightTheme = (): void => {
   <!-- THEME SWAP (DARK / LIGHT) -->
   <AppDisplayFlex class="flex items-center">
     <AppButton v-show="!isDarkMode" @handle-click="setDarkTheme()">
-      <DarkModeIcon />
+      <DarkModeIcon class="fill-emerald-500" />
+      <AppText class="ml-2" value="Oscuro" />
     </AppButton>
     <AppButton v-show="isDarkMode" @handle-click="setLightTheme()">
-      <LightModeIcon class="fill-white" />
+      <LightModeIcon class="fill-emerald-100" />
+      <AppText class="ml-2" value="Claro" />
     </AppButton>
   </AppDisplayFlex>
 </template>

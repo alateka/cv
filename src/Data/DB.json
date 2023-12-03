@@ -23,10 +23,56 @@
   "frameworks_used": "Laravel | .NET & .NET core | Vue.js | Boostrap CSS | TailwindCSS",
   "first_description": "Llevo 8 años dedicándome a la informática en general (Montaje y reparación de equipos, Instalación y configuración de Sistemas Operativos, Despliegue de servidores, Manejo de redes locales, Seguridad informática, etc). Actualmente estoy como desarrollador (Full Stack) en QUENTAL TECHNOLOGIES S.L.",
   "creative_commons": {
-    "text": "Creative Commons by Alberto Pérez Fructuoso",
+    "text": "| Creative Commons by Alberto Pérez Fructuoso |",
     "link": "https://creativecommons.org/licenses/by/4.0/deed.es"
   },
   "full_name": "Alberto Pérez Fructuoso",
   "mobile": "Movil - 629983744",
-  "alt_selfie": "La foto de mi careto"
+  "alt_selfie": "La foto de mi careto",
+  "experience_section": {
+    "title": "Experiencia",
+    "list": [
+      {
+        "company_name": "QUENTAL TECHNOLOGIES S.L",
+        "duration": "Agosto 2022 - Presente",
+        "description": "Desarrollo de proyectos de software para empresas.",
+        "tasks": [
+          "Realizo varios desarrollos tanto en la parte de Backend como en el Frontend usando Laravel como Framework de PHP y Vue.js y TailwindCSS como Frameworks de JavaScript y CSS",
+          "Desarrollo y gestiono API REST para integraciones con Apps móviles."
+        ]
+      },
+      {
+        "company_name": "GESTYCLOUD ONLINE S.L.U",
+        "duration": "Enero 2021 - Agosto 2022 (1 Año 8 Meses)",
+        "description": "Aquí empece a inicializarme en el mundo del desarrollo de software.",
+        "tasks": [
+          "Desarrollo Web (FullStack) con PHP y uso de Frameworks como .NET, y Vue.js)",
+          "Desarrollo de scripts para automatización de tareas con C#, GO, Java, Python."
+        ]
+      },
+      {
+        "company_name": "(FP DUAL) GESTYSA & JOSE MARIA JIMENEZ S.L",
+        "duration": "Enero 2021 - Junio 2021 (6 Meses)",
+        "description": "En esta empresa realice multitud de tareas como las siguientes:",
+        "tasks": [
+          "Reparación/Configuración de los equipos informáticos.",
+          "Asistencia remota o presencial con los emplead@s y clientes.",
+          "Desarrollo genérico de procesos automatizados para las gestiones internas de la empresa.",
+          "Desarrollo de aplicaciones webs para la empresa.",
+          "Uso de servicios como: Azure, varios ERPs y CRMs, Microsoft Power Apps y Power Bi.",
+          "Administración completa de la infraestructura de la red (Uso de Swiches, Routers, AP, Servidores, Bases de datos, etc)."
+        ]
+      },
+      {
+        "company_name": "(FCT) Hospital Universitario Reina Sofía (Región de Murcia)",
+        "duration": "Marzo 2019 - Junio 2019 (4 Meses)",
+        "description": "He trabajado en el departamento informático del hospital de Reina Sofia (Murcia). Me dedicaba a resolver las incidencias generadas por los usuarios empleados del hospital.",
+        "tasks": [
+          "Reparación/Configuración de impresoras y equipos.",
+          "Asistencia telemática y presencial con los empleados del hospital.",
+          "Uso de herramientas de limpieza, optimización y eliminación de virus."
+        ]
+      }
+    ]
+  }
 }
