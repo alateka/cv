@@ -7,7 +7,7 @@
   font-family: "Nunito-Regular";
   src:
     local("Nunito-Regular"),
-    url(assets/fonts/nunito_regular.ttf) format("truetype"); /* Remove 'assets/' to work in production */
+    url(../assets/fonts/nunito_regular.ttf) format("truetype");
 }
 * {
   font-family: "Nunito-Regular";
