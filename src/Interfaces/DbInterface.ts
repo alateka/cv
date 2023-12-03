@@ -2,6 +2,7 @@ import {
   NavbarInterface,
   CreativeCommonsInterface,
   ExperienceSectionInterface,
+  KnowledgeSectionInterface,
 } from "@interfaces/index.ts";
 
 export interface DbInterface {
@@ -16,4 +17,5 @@ export interface DbInterface {
   mobile: string;
   alt_selfie: string;
   experience_section: ExperienceSectionInterface;
+  knowledge_section: KnowledgeSectionInterface;
 }

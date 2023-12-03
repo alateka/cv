@@ -3,7 +3,7 @@ import { AppButton } from "@components/index.ts";
 import { NavbarInterface } from "@interfaces/index.ts";
 import { inject } from "vue";
 import { injectionKey } from "@composables/index.ts";
-import { AboutMe, Experience } from "@pages/index.ts";
+import { AboutMe, Experience, Knowledge } from "@pages/index.ts";
 
 defineProps({
   buttons: {
@@ -19,6 +19,7 @@ const changeComponent = (key: number = 1): void => {
   injected.currentComponent.value = {
     1: AboutMe,
     2: Experience,
+    3: Knowledge,
   }[key];
 };
 </script>

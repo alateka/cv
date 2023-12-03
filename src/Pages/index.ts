@@ -4,4 +4,8 @@ export { default as PresentationContainer } from "./AboutMe/PresentationContaine
 
 // Experience
 export { default as Experience } from "./Experience/Index.vue";
-export { default as ListContainer } from "./Experience/ListContainer.vue";
+export { default as ExperienceListContainer } from "./Experience/ExperienceListContainer.vue";
+
+// Knowledge
+export { default as Knowledge } from "./Knowledge/Index.vue";
+export { default as KnowledgeTableContainer } from "./Knowledge/KnowledgeTableContainer.vue";

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { AppNavbarButtons, AppImg } from "@components/index.ts";
-import { getDataFromDB } from "@composables/index.ts";
+import { useGetDB } from "@composables/index.ts";
 </script>
 
 <template>
@@ -10,12 +10,13 @@ import { getDataFromDB } from "@composables/index.ts";
       <AppImg
         src="assets/img/face.webp"
         class="w-28"
-        :alt="getDataFromDB().alt_selfie"
+        imgClass="rounded-full border_base"
+        :alt="useGetDB().alt_selfie"
         href="/"
       />
 
       <!-- Navbar Buttons -->
-      <AppNavbarButtons :buttons="getDataFromDB().navbar" />
+      <AppNavbarButtons :buttons="useGetDB().navbar" />
     </nav>
   </header>
 </template>

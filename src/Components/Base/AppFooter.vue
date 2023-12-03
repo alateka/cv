@@ -6,7 +6,7 @@ import {
   AppLink,
   AppColorSchemeButton,
 } from "@components/index.ts";
-import { getDataFromDB } from "@composables/index.ts";
+import { useGetDB } from "@composables/index.ts";
 </script>
 
 <template>
@@ -15,8 +15,8 @@ import { getDataFromDB } from "@composables/index.ts";
     <AppDisplayFlex class="items-center">
       <ContactIcon class="mr-3 w-9" />
       <AppDisplayFlex class="flex-col">
-        <AppText :value="getDataFromDB().full_name" />
-        <AppText :value="getDataFromDB().mobile" />
+        <AppText :value="useGetDB().full_name" />
+        <AppText :value="useGetDB().mobile" />
       </AppDisplayFlex>
     </AppDisplayFlex>
 
@@ -26,8 +26,8 @@ import { getDataFromDB } from "@composables/index.ts";
     <!-- LICENSE -->
     <AppDisplayFlex class="hidden lg:block my-auto">
       <AppLink
-        :text="getDataFromDB().creative_commons.text"
-        :href="getDataFromDB().creative_commons.link"
+        :text="useGetDB().creative_commons.text"
+        :href="useGetDB().creative_commons.link"
       />
     </AppDisplayFlex>
   </footer>

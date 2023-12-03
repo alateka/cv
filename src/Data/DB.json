@@ -74,5 +74,23 @@
         ]
       }
     ]
+  },
+  "knowledge_section": {
+    "title": "Conocimientos adquirido (Titulaciones)",
+    "columns": ["Título", "Habilidades"],
+    "rows": [
+      [
+        "GS: Desarrollo de Aplicaciones Multiplataforma",
+        "Desarrollo de aplicaciones multiplataforma (Windows, Mac, Linux, Android & iOS), uso de multitud de lenguajes para desarrollos como Java, Python y C#. Manejo del Frameworks .NET con Windows Form."
+      ],
+      [
+        "GS: Desarrollo de Aplicaciones Web",
+        "Uso de lenguajes para el desarrollo de páginas webs y Bases de Datos (PHP, HTML/CSS/JavaScript, SQL, Java y XML). Uso de Frameworks para el desarrollo web (Laravel, Boostrap y Vue), manejo y despliegue de contenedores Docker y servicios en general."
+      ],
+      [
+        "GM: Sistemas Microinformáticos y Redes",
+        "Aprendí el manejo, securicación y optimización de redes locales asi como el uso de switches y routers. Desplegar y administrar varios tipos de servidores (Web, DHCP, FTP, DNS, Proxy, Correo Electrónico, etc), también el montaje y mantenimiento de equipos, asi como el uso de software dedicado a la optimización y securicación de los mismos."
+      ]
+    ]
   }
 }

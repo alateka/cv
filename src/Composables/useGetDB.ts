@@ -1,6 +1,6 @@
 import DB from "../Data/DB.json";
 import { DbInterface } from "@interfaces/index.ts";
 
-export function getDataFromDB(): DbInterface {
+export function useGetDB(): DbInterface {
   return DB;
 }

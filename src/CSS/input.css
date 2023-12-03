@@ -46,6 +46,11 @@
     @apply bg-emerald-100 text-emerald-900 shadow-md dark:bg-emerald-800 dark:text-emerald-100 border dark:border-emerald-700 border-emerald-300;
   }
 
+  /* CONTAINER BASE */
+  .border_base {
+    @apply border-2 dark:border-emerald-700 border-emerald-300;
+  }
+
   /* BODY BASE */
   .base_body {
     @apply bg-gray-300 text-black dark:bg-gray-800 dark:text-white;

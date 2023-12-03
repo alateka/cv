@@ -6,34 +6,9 @@ import {
   AppDisplayFlex,
   AppText,
 } from "@components/index.ts";
-import { ref } from "vue";
+import { useColorScheme } from "@composables/index.ts";
 
-// Set themes (Dark / Light)
-const isDarkMode = ref(true);
-
-if (
-  localStorage.theme === "dark" ||
-  (!("theme" in localStorage) &&
-    window.matchMedia("(prefers-color-scheme: dark)").matches)
-) {
-  document.documentElement.classList.add("dark");
-  isDarkMode.value = true;
-} else {
-  document.documentElement.classList.remove("dark");
-  isDarkMode.value = false;
-}
-
-const setDarkTheme = (): void => {
-  document.documentElement.classList.add("dark");
-  localStorage.theme = "dark";
-  isDarkMode.value = true;
-};
-
-const setLightTheme = (): void => {
-  document.documentElement.classList.remove("dark");
-  localStorage.theme = "light";
-  isDarkMode.value = false;
-};
+const { setDarkTheme, setLightTheme, isDarkMode } = useColorScheme(false);
 </script>
 
 <template>
