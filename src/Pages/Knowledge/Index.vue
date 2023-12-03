@@ -7,6 +7,9 @@ import { useGetDB } from "@composables/index.ts";
 <template>
   <AppContainer>
     <AppTitle class="ml-3 mt-5" :value="useGetDB().knowledge_section.title" />
-    <KnowledgeTableContainer />
+    <KnowledgeTableContainer
+      :columns="useGetDB().knowledge_section.columns"
+      :rows="useGetDB().knowledge_section.rows"
+    />
   </AppContainer>
 </template>
