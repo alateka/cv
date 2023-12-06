@@ -2,7 +2,7 @@ import { inject, ref, onMounted, onBeforeUnmount } from "vue";
 import { injectionKey } from "@composables/index.ts";
 import { AboutMe, Experience, Knowledge, Skills } from "@pages/index.ts";
 
-export const useNavbar = () => {
+export const useNavbar = (refElement: any) => {
   // Get injection key to save current page
   const injected: any = inject(injectionKey);
 
@@ -32,15 +32,24 @@ export const useNavbar = () => {
     showMenu.value = window.innerWidth < 768 ? false : true;
   };
 
+  // Close menu when click out
+  const closeMenuOutside = (event: any) => {
+    if (!refElement.value.contains(event.target)) {
+      showMenu.value = false;
+    }
+  };
+
   // Add listeners on mount
   onMounted(() => {
     if (window.innerWidth < 768) showMenu.value = false;
 
+    window.addEventListener("click", closeMenuOutside);
     window.addEventListener("resize", handleResize);
   });
 
   // Remove listeners on unmount
   onBeforeUnmount(() => {
+    window.removeEventListener("click", closeMenuOutside);
     window.removeEventListener("resize", handleResize);
   });
 
