@@ -14,7 +14,7 @@ defineProps({
 </script>
 
 <template>
-  <AppDisplayFlex class="p-3">
+  <AppDisplayFlex class="px-3 py-9">
     <table class="table-auto">
       <thead>
         <tr>

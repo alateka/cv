@@ -15,12 +15,15 @@ import { useGetDB } from "@composables/index.ts";
       src="assets/img/header_img.webp"
       imgClass="rounded-t-lg border_base"
     />
-    <AppDisplayFlex class="flex-col px-7 pb-7">
-      <AppTitle class="my-3" :value="useGetDB().welcome" />
-      <AppSpaceBar />
-      <AppText class="my-3" :value="useGetDB().first_description" />
-      <AppText class="underline my-3" :value="useGetDB().languages_used" />
-      <AppText class="underline" :value="useGetDB().frameworks_used" />
+    <AppDisplayFlex class="flex-col">
+      <AppTitle class="m-5" :value="useGetDB().welcome" />
+      <AppSpaceBar class="border-2" />
+      <AppText class="m-5" :value="useGetDB().first_description" />
+      <AppText class="underline mt-3 mx-5" :value="useGetDB().languages_used" />
+      <AppText
+        class="underline mx-5 mb-5 mt-3"
+        :value="useGetDB().frameworks_used"
+      />
     </AppDisplayFlex>
   </AppDisplayFlex>
 </template>

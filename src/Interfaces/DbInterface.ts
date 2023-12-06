@@ -3,6 +3,8 @@ import {
   CreativeCommonsInterface,
   ExperienceSectionInterface,
   KnowledgeSectionInterface,
+  SkillsSectionInterface,
+  ContactInterface,
 } from "@interfaces/index.ts";
 
 export interface DbInterface {
@@ -13,9 +15,9 @@ export interface DbInterface {
   frameworks_used: string;
   first_description: string;
   creative_commons: CreativeCommonsInterface;
-  full_name: string;
-  mobile: string;
+  contact: ContactInterface;
   alt_selfie: string;
   experience_section: ExperienceSectionInterface;
   knowledge_section: KnowledgeSectionInterface;
+  skills_section: SkillsSectionInterface;
 }

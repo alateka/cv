@@ -1,9 +1,7 @@
 <script setup lang="ts">
 import { AppButton } from "@components/index.ts";
 import { NavbarInterface } from "@interfaces/index.ts";
-import { inject } from "vue";
-import { injectionKey } from "@composables/index.ts";
-import { AboutMe, Experience, Knowledge } from "@pages/index.ts";
+import { useNavbar } from "@composables/index.ts";
 
 defineProps({
   buttons: {
@@ -12,16 +10,7 @@ defineProps({
   },
 });
 
-const injected: any = inject(injectionKey);
-injected.currentComponent.value = AboutMe;
-
-const changeComponent = (key: number = 1): void => {
-  injected.currentComponent.value = {
-    1: AboutMe,
-    2: Experience,
-    3: Knowledge,
-  }[key];
-};
+const { changeComponent } = useNavbar();
 </script>
 
 <template>

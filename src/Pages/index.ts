@@ -9,3 +9,7 @@ export { default as ExperienceListContainer } from "./Experience/ExperienceListC
 // Knowledge
 export { default as Knowledge } from "./Knowledge/Index.vue";
 export { default as KnowledgeTableContainer } from "./Knowledge/KnowledgeTableContainer.vue";
+
+// Skills
+export { default as Skills } from "./Skills/Index.vue";
+export { default as SkillsListContainer } from "./Skills/SkillsListContainer.vue";

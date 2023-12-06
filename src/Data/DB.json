@@ -26,8 +26,11 @@
     "text": "| Creative Commons by Alberto Pérez Fructuoso |",
     "link": "https://creativecommons.org/licenses/by/4.0/deed.es"
   },
-  "full_name": "Alberto Pérez Fructuoso",
-  "mobile": "Movil - 629983744",
+  "contact": {
+    "full_name": "Alberto Pérez Fructuoso",
+    "mobile": "Movil - 629983744",
+    "email": "apf@vivaldi.net"
+  },
   "alt_selfie": "La foto de mi careto",
   "experience_section": {
     "title": "Experiencia",
@@ -80,17 +83,31 @@
     "columns": ["Título", "Habilidades"],
     "rows": [
       [
-        "GS: Desarrollo de Aplicaciones Multiplataforma",
-        "Desarrollo de aplicaciones multiplataforma (Windows, Mac, Linux, Android & iOS), uso de multitud de lenguajes para desarrollos como Java, Python y C#. Manejo del Frameworks .NET con Windows Form."
+        "GS-(DAM)",
+        "Desarrollo de Aplicaciones Multiplataforma (Windows, Mac, Linux, Android & iOS), uso de multitud de lenguajes para desarrollos como Java, Python y C#. Manejo del Frameworks .NET con Windows Form."
       ],
       [
-        "GS: Desarrollo de Aplicaciones Web",
-        "Uso de lenguajes para el desarrollo de páginas webs y Bases de Datos (PHP, HTML/CSS/JavaScript, SQL, Java y XML). Uso de Frameworks para el desarrollo web (Laravel, Boostrap y Vue), manejo y despliegue de contenedores Docker y servicios en general."
+        "GS-(DAW)",
+        "Desarrollo de Aplicaciones Web, uso de lenguajes para el desarrollo de páginas webs y Bases de Datos (PHP, HTML/CSS/JavaScript, SQL, Java y XML). Uso de Frameworks para el desarrollo web (Laravel, Boostrap y Vue), manejo y despliegue de contenedores Docker y servicios en general."
       ],
       [
-        "GM: Sistemas Microinformáticos y Redes",
-        "Aprendí el manejo, securicación y optimización de redes locales asi como el uso de switches y routers. Desplegar y administrar varios tipos de servidores (Web, DHCP, FTP, DNS, Proxy, Correo Electrónico, etc), también el montaje y mantenimiento de equipos, asi como el uso de software dedicado a la optimización y securicación de los mismos."
+        "GM-(SMR)",
+        "Sistemas Microinformáticos y Redes, aprendí el manejo, securicación y optimización de redes locales asi como el uso de switches y routers. Desplegar y administrar varios tipos de servidores (Web, DHCP, FTP, DNS, Proxy, Correo Electrónico, etc), también el montaje y mantenimiento de equipos, asi como el uso de software dedicado a la optimización y securicación de los mismos."
       ]
+    ]
+  },
+  "skills_section": {
+    "title": "Habilidades",
+    "list": [
+      "DNS: Crear y configurar zonas en la red para asignar nombres de dominio a los equipos conectados.",
+      "DHCP: Instalar o configurar un servicio DHCP para la asignación automática de direcciones IP a los dispositivos en la red.",
+      "Proxy: Configurar un servicio proxy que puede actuar tanto de cache web como tomar control de acceso a determinados sitios web.",
+      "SAMBA (SMB): Para compartir directorios en una red de ordenadores Windows o una red con clientes Windows y Linux.",
+      "NFS: Exportar (Compartir) directorios a todos los ordenadores de la red mediante este protocolo.",
+      "SSH: Para la conexión remota desde una máquina cliente hacia el servidor y/o configurar SFTP para transferencia de ficheros.",
+      "Servidor de Impresión: Configurar un servicio de impresión unificada donde los clientes soliciten el uso de impresoras conectadas a una única máquina.",
+      "SO Microsoft Windows: Instalar y/o configurar la mayoría de funciones de clientes Windows tanto para administrarlos como para optimizarlos.",
+      "SO GNU/Linux (Debian, Ubuntu, Fedora, Archlinux, CentOS, etc): Realizar instalaciones manuales de Distribuciones Linux en equipos cliente, así como realizar configuraciones en el sistema."
     ]
   }
 }

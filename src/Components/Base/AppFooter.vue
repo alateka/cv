@@ -15,8 +15,9 @@ import { useGetDB } from "@composables/index.ts";
     <AppDisplayFlex class="items-center">
       <ContactIcon class="mr-3 w-9" />
       <AppDisplayFlex class="flex-col">
-        <AppText :value="useGetDB().full_name" />
-        <AppText :value="useGetDB().mobile" />
+        <AppText :value="useGetDB().contact.full_name" />
+        <AppText :value="useGetDB().contact.mobile" />
+        <AppText :value="useGetDB().contact.email" />
       </AppDisplayFlex>
     </AppDisplayFlex>
 
