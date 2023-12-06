@@ -35,13 +35,13 @@ export const useNavbar = (refElement: any) => {
   // Close menu when click out
   const closeMenuOutside = (event: any) => {
     if (!refElement.value.contains(event.target)) {
-      showMenu.value = false;
+      handleResize();
     }
   };
 
   // Add listeners on mount
   onMounted(() => {
-    if (window.innerWidth < 768) showMenu.value = false;
+    handleResize();
 
     window.addEventListener("click", closeMenuOutside);
     window.addEventListener("resize", handleResize);
