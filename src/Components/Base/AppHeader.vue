@@ -5,11 +5,11 @@ import { useGetDB } from "@composables/index.ts";
 
 <template>
   <header class="relative">
-    <nav class="left_menu">
+    <nav class="navbar">
       <!-- Profile photo -->
       <AppImg
         src="assets/img/face.webp"
-        class="w-28"
+        class="w-28 hidden md:block"
         imgClass="rounded-full border_base"
         :alt="useGetDB().alt_selfie"
         href="/"

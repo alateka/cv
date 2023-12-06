@@ -10,7 +10,7 @@ import { useGetDB } from "@composables/index.ts";
 </script>
 
 <template>
-  <AppDisplayFlex class="flex-col mb-5">
+  <AppDisplayFlex class="flex-col">
     <AppTitle class="mt-5 mx-5" :value="useGetDB().experience_section.title" />
     <AppDisplayFlex
       class="flex-col"

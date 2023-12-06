@@ -4,7 +4,7 @@ import { AppDisplayFlex } from "@components/index.ts";
 
 <template>
   <AppDisplayFlex
-    class="container_base flex-col ml-auto mr-3 mt-3 w-full md:w-2/3 md:mr-20 lg:mx-auto mb-32"
+    class="container_base flex-col md:ml-auto mt-24 md:mt-5 w-full md:w-2/3 md:mr-20 lg:mx-auto mb-32"
   >
     <slot />
   </AppDisplayFlex>
