@@ -7,21 +7,9 @@
 
 - Run: `firebase deploy --only hosting`
 
-## Tailwind Binary 
-### Download it:
-`curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-linux-x64`
+## Prepare dependencies
+- `npm install`
 
-`chmod +x tailwindcss-linux-x64`
-
-`mv tailwindcss-linux-x64 tailwindcss`
-
-### On pre
-- `./tailwindcss -i src/CSS/input.css -o ./src/app.css --watch`
-
-### On pro
-- `./tailwindcss -i src/CSS/input.css -o ./src/app.css --minify`
-
-## Vite
 ### On pre
 - `npm run dev`
 
