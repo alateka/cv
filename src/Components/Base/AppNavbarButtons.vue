@@ -11,7 +11,7 @@ defineProps({
 });
 
 const menuContainer = ref(null);
-const { changeComponent, showMenu, toggleMenu } = useNavbar(menuContainer);
+const { changeComponent, showMenu, toggleMenu, currentSelectedButton } = useNavbar(menuContainer);
 </script>
 
 <template>
@@ -26,7 +26,7 @@ const { changeComponent, showMenu, toggleMenu } = useNavbar(menuContainer);
       <li :key="button.id" v-for="button in buttons">
         <AppButton
           @handle-click="changeComponent(button.id)"
-          :value="button.label"
+          :value="button.label" :class="currentSelectedButton === button.id ? 'selected_button_on_navbar' : ''"
         />
       </li>
     </ul>

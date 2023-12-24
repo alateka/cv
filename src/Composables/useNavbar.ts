@@ -17,8 +17,12 @@ export const useNavbar = (refElement: any) => {
     showMenu.value = !showMenu.value;
   };
 
+  // Current selected button on navbar
+  const currentSelectedButton = ref(1);
+
   // Switch page
   const changeComponent = (key: number = 1): void => {
+    currentSelectedButton.value = key;
     injected.currentComponent.value = {
       1: AboutMe,
       2: Experience,
@@ -61,5 +65,6 @@ export const useNavbar = (refElement: any) => {
 
     // Variables
     showMenu,
+    currentSelectedButton
   };
 };
